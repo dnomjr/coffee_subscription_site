@@ -16,7 +16,7 @@ export default {
         grey: "rgb(131, 136, 143)",
         darkBody: "hsl(215, 19%, 25%)",
         gradientMenu: "rgba(254, 252, 247, 0.50)",
-        gradientMenu2: "#FEFCF7",
+        gradientMenu2: "#FEFCF7 ",
         gradientCollection: "rgba(254, 252, 247, 0.00)",
       },
       width: {
@@ -48,6 +48,13 @@ export default {
           "url('./src/assets/about/desktop/image-quality.jpg')",
         "tablet-about-cup":
           "url('./src/assets/about/tablet/image-quality.jpg')",
+
+        "mobile-plan-cup":
+          "url('./src/assets/plan/mobile/image-hero-blackcup.jpg')",
+        "desktop-plan-cup":
+          "url('./src/assets/plan/desktop/image-hero-blackcup.jpg')",
+        "tablet-plan-cup":
+          "url('./src/assets/plan/tablet/image-hero-blackcup.jpg')",
       },
     },
   },

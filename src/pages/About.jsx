@@ -14,6 +14,7 @@ const About = () => {
           been dedicated to bring the perfect cup - from bean to brew - in every
           shipment.
         </p>
+
       </section>
 
       <section className="flex flex-col gap-y-12 mb-44 md:mb-72 md:gap-y-0 md:flex-row lg:items-center lg:mb-52">
