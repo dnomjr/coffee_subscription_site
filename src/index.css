@@ -6,6 +6,16 @@
 
 @layer base {
   body {
-    @apply bg-lightCream dark:bg-darkBody dark:text-white transition ease-in-out duration-500;
+    @apply scroll-smooth bg-lightCream dark:bg-darkBody dark:text-white transition ease-in-out duration-500;
   }
+}
+
+@layer components {
+  .summary {
+    @apply text-darkCyan text-2xl font-black leading-10;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

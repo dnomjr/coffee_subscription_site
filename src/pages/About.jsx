@@ -1,7 +1,6 @@
 import { headquarters } from "../constants"
 
 const About = () => {
-  console.log(window.screen.width)
   return (
     <>
       <section className="px-6 py-28 text-center rounded-[10px] text-lightCream mb-24 bg-cover bg-mobile-about-hero md:bg-tablet-about-hero md:text-start md:px-14 md:py-[118px] lg:bg-desktop-about-hero lg:px-20 lg:py-[137px] lg:mb-40">
@@ -14,7 +13,6 @@ const About = () => {
           been dedicated to bring the perfect cup - from bean to brew - in every
           shipment.
         </p>
-
       </section>
 
       <section className="flex flex-col gap-y-12 mb-44 md:mb-72 md:gap-y-0 md:flex-row lg:items-center lg:mb-52">

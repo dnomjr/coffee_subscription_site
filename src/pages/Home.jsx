@@ -67,7 +67,6 @@ const Home = () => {
         <div className="flex flex-col gap-y-6 px-6 row-start-1 col-start-1 mt-[300px] lg:flex-row lg:gap-x-[30px] md:px-16 lg:px-14">
           {features.map((feature) => {
             const { id, icon, title, content } = feature
-            console.log(title)
             return (
               <div
                 key={id}
@@ -197,9 +196,7 @@ const Home = () => {
 
         <Link to="/plans">
           <button className="font-frauncesBlack text-[18px] font-black px-8 py-4 bg-darkCyan leading-6 rounded-md lg:cursor-pointer hover:bg-[#66D2CF] transition ease-in-out duration-700 text-white max-w-[218px] table mx-auto md:mx-0">
-            <h3>
-              <a href="/plans">Create your plan</a>
-            </h3>
+            <h3>Create your plan</h3>
           </button>
         </Link>
       </section>

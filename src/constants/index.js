@@ -11,6 +11,8 @@ import uk from "../assets/about/desktop/illustration-uk.svg"
 import canada from "../assets/about/desktop/illustration-canada.svg"
 import australia from "../assets/about/desktop/illustration-australia.svg"
 
+import { nanoid } from "nanoid"
+
 export const navLinks = [
   { id: 1, href: "/", label: "home" },
   { id: 2, href: "/about", label: "about" },
@@ -126,73 +128,146 @@ export const headquarters = [
   },
 ]
 
-export const questions = [
-  {
-    id: 1,
-    question: "How do you drink your coffee?",
-    option1: "Capsule",
-    describe1: "Compatible with Nespresso systems and similar brewers",
-    option2: "Filter",
-    describe2:
-      "For pour over or drip methods like Aeropress, Chemex, and V60",
-    option3: "Espresso",
-    describe3:
-      "Dense and finely ground beans for an intense, flavorful experience",
-  },
-  {
-    id: 2,
-    question: "What type of coffee?",
-    option1: "Single Origin",
-    describe1:
-      "Distinct, high quality coffee from a specific family-owned farm",
-    option2: "Decaf",
-    describe2:
-      "Just like regular coffee, except the caffeine has been removed",
-    option3: "Blended",
-    describe3:
-      "Combination of two or three dark roasted beans of organic coffees",
-  },
-  {
-    id: 3,
-    question: "How much would you like?",
-    option1: "250g",
-    describe1:
-      "Perfect for the solo drinker. Yields about 12 delicious cups.",
-    option2: "500g",
-    describe2:
-      "Perfect option for a couple. Yields about 40 delectable cups.",
-    option3: "1000g",
-    describe3:
-      "Perfect for offices and events. Yields about 90 delightful cups.",
-  },
-  {
-    id: 4,
-    question: "Want us to grind them?",
-    option1: "Wholebean",
-    describe1: "Best choice if you cherish the full sensory experience",
-    option2: "Filter",
-    describe2:
-      "For drip or pour-over coffee methods such as V60 or Aeropress",
-    option3: "Cafetiére",
-    describe3:
-      " Course ground beans specially suited for french press coffee",
-  },
-  {
-    id: 5,
-    question: "How often should we deliver?",
-    option1: "Every week",
-    describe1: "$7.20 per shipment. Includes free first-class shipping.",
-    option2: "Every 2 weeks",
-    describe2: "$9.60 per shipment. Includes free priority shipping.",
-    option3: "Every month",
-    describe3: "$12.00 per shipment. Includes free priority shipping.",
-  },
-]
-
 export const points = [
   { id: 1, number: "01", content: "Preferences" },
   { id: 2, number: "02", content: "Bean Type" },
   { id: 3, number: "03", content: "Quantity" },
   { id: 4, number: "04", content: "Grind Option" },
   { id: 5, number: "05", content: "Deliveries" },
+]
+
+export const quests = [
+  {
+    id: 1,
+    question: "How do you drink your coffee?",
+    options: [
+      {
+        id: nanoid(),
+        title: "bean",
+        option: "Capsule",
+        describe: "Compatible with Nespresso systems and similar brewers",
+      },
+      {
+        id: nanoid(),
+        title: "bean",
+        option: "Filter",
+        describe:
+          "For pour over or drip methods like Aeropress, Chemex, and V60",
+      },
+      {
+        id: nanoid(),
+        title: "bean",
+        option: "Espresso",
+        describe:
+          "Dense and finely ground beans for an intense, flavorful experience",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    question: "What type of coffee?",
+    options: [
+      {
+        id: nanoid(),
+        title: "type",
+        option: "Single Origin",
+        describe:
+          "Distinct, high quality coffee from a specific family-owned farm",
+      },
+      {
+        id: nanoid(),
+        title: "type",
+        option: "Decaf",
+        describe:
+          "Just like regular coffee, except the caffeine has been removed",
+      },
+      {
+        id: nanoid(),
+        title: "type",
+        option: "Blended",
+        describe:
+          "Combination of two or three dark roasted beans of organic coffees",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    question: "How much would you like?",
+    options: [
+      {
+        id: nanoid(),
+        title: "amount",
+        option: "250g",
+        describe:
+          "Perfect for the solo drinker. Yields about 12 delicious cups.",
+      },
+      {
+        id: nanoid(),
+        title: "amount",
+        option: "500g",
+        describe:
+          "Perfect option for a couple. Yields about 40 delectable cups.",
+      },
+      {
+        id: nanoid(),
+        title: "amount",
+        option: "1000g",
+        describe:
+          "Perfect for offices and events. Yields about 90 delightful cups.",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    question: "Want us to grind them?",
+    options: [
+      {
+        id: nanoid(),
+        title: "grind",
+        option: "Wholebean",
+        describe: "Best choice if you cherish the full sensory experience",
+      },
+      {
+        id: nanoid(),
+        title: "grind",
+        option: "Filter",
+        describe:
+          "For drip or pour-over coffee methods such as V60 or Aeropress",
+      },
+      {
+        id: nanoid(),
+        title: "grind",
+        option: "Cafetiére",
+        describe:
+          " Course ground beans specially suited for french press coffee",
+      },
+    ],
+  },
+  {
+    id: 5,
+    question: "How often should we deliver?",
+    options: [
+      {
+        id: nanoid(),
+        title: "delivery",
+        option: "Every week",
+        describe: "$7.20 per shipment. Includes free first-class shipping.",
+      },
+      {
+        id: nanoid(),
+        title: "delivery",
+        option: "Every 2 weeks",
+        describe: "$9.60 per shipment. Includes free priority shipping.",
+      },
+      {
+        id: nanoid(),
+        title: "delivery",
+        option: "Every month",
+        describe: "$12.00 per shipment. Includes free priority shipping.",
+      },
+    ],
+  },
 ]

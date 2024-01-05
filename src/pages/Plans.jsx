@@ -114,7 +114,7 @@ const Plans = () => {
         </div>
       </section>
 
-      <section className="mb-20 flex flex-row">
+      <section className="mb-20 flex flex-row ">
         <CreatePlan />
         
       </section>
