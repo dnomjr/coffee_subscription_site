@@ -3,19 +3,19 @@ const CommitmentSection = () => {
     <>
       <div>
         <img
-          src="/src/assets/about/mobile/image-commitment.jpg"
+          src="/images/image-commitment-mobile.jpg"
           alt=""
           className="rounded-[.625rem] w-80  mx-auto md:hidden"
         />
 
         <img
-          src="/src/assets/about/tablet/image-commitment.jpg"
+          src="/images/image-commitment-tablet.jpg"
           alt=""
           className="rounded-[.625rem]  hidden md:block lg:hidden"
         />
 
         <img
-          src="/src/assets/about/desktop/image-commitment.jpg"
+          src="/images/image-commitment.jpg"
           alt=""
           className="rounded-[.625rem] w-96 hidden lg:block"
         />
