@@ -20,7 +20,7 @@ const Plans = () => {
         <HeroSection />
       </section>
       <section
-        className="px-6 pt-20 pb-10 mb-28 bg-darkGreyBlue dark:bg-[#262e38] rounded-[.625rem]  md:px-10 lg:px-14 md:pb-20"
+        className="px-6 pt-20 pb-20 mb-28 bg-darkGreyBlue dark:bg-[#262e38] rounded-[.625rem]  md:px-10 lg:px-14 md:pb-20"
         data-aos="fade-up"
       >
         <StepsSection />

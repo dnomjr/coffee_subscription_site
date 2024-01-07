@@ -23,23 +23,16 @@ export default {
         "screen/90": "90vw",
       },
       backgroundImage: {
-        "mobile-home": "url('./images/image-hero-coffeepress-mobile.jpg')",
-        "desktop-home": "url('./images/image-hero-coffeepress.jpg')",
+        "mobile-home":
+          "url('./src/assets/home/image-hero-coffeepress-mobile.jpg')",
+        "desktop-home": "url('./src/assets/home/image-hero-coffeepress.jpg')",
 
-        "mobile-about-hero": "url('./images/image-hero-whitecup-mobile.jpg')",
-        "desktop-about-hero": "url('./images/image-hero-whitecup.jpg')",
-        "tablet-about-hero": "url('./images/image-hero-whitecup-tablet.jpg')",
-
-        "mobile-about-man": "url('./images/image-commitment-mobile.jpg')",
-        "desktop-about-man": "url('./images/image-commitment.jpg')",
-        "tablet-about-man": "url('./images/image-commitment-tablet.jpg')",
-
-        "mobile-about-cup":
-          "url('./src/assets/about/mobile/image-quality-mobile.jpg')",
-        "desktop-about-cup":
-          "url('./src/assets/about/desktop/image-quality.jpg')",
-        "tablet-about-cup":
-          "url('./src/assets/about/tablet/image-quality-tablet.jpg')",
+        "mobile-about-hero":
+          "url('./src/assets/about/image-hero-whitecup-mobile.jpg')",
+        "desktop-about-hero":
+          "url('./src/assets/about/image-hero-whitecup.jpg')",
+        "tablet-about-hero":
+          "url('./src/assets/about/image-hero-whitecup-tablet.jpg')",
 
         "mobile-plan-cup":
           "url('./src/assets/plan/mobile/image-hero-blackcup.jpg')",

@@ -3,17 +3,17 @@ const QualitySection = () => {
     <>
       <div className="max-w-[25.875rem] absolute left-0 right-0 mx-auto px-10 md:px-0 -translate-y-2/4 ">
         <img
-          src="/src/assets/about/mobile/image-quality.jpg"
+          src="./src/assets/about/image-quality-mobile.jpg"
           alt=""
           className="  mx-auto rounded-[.625rem]   md:hidden object-cover"
         />
         <img
-          src="/src/assets/about/tablet/image-quality.jpg"
+          src="./src/assets/about/image-quality-tablet.jpg"
           alt=""
           className="hidden absolute left-0 right-0 mx-auto -translate-y-2/4 w-full max-w-[32.8125rem] rounded-[.625rem]  md:block lg:hidden"
         />
         <img
-          src="/src/assets/about/desktop/image-quality.jpg"
+          src="./src/assets/about/image-quality.jpg"
           alt=""
           className="hidden absolute -right-60 -translate-y-1/4 w-full max-w-[20.3125rem] rounded-[.625rem] lg:block"
         />
