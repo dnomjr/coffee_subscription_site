@@ -11,7 +11,11 @@ import uk from "../assets/about/desktop/illustration-uk.svg"
 import canada from "../assets/about/desktop/illustration-canada.svg"
 import australia from "../assets/about/desktop/illustration-australia.svg"
 
+import commitmentMobile from "../assets/about/image-commitment-mobile.jpg"
+
 import { nanoid } from "nanoid"
+
+export {commitmentMobile}
 
 export const navLinks = [
   { id: 1, href: "/", label: "home" },
