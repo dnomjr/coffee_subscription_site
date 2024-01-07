@@ -24,8 +24,8 @@ export default {
       },
       backgroundImage: {
         "mobile-home":
-          "url('./src/assets/home/image-hero-coffeepress-mobile.jpg')",
-        "desktop-home": "url('./src/assets/home/image-hero-coffeepress.jpg')",
+          "url('./image-hero-coffeepress-mobile.jpg')",
+        "desktop-home": "url('./image-hero-coffeepress.jpg')",
 
         "mobile-about-hero":
           "url('./src/assets/about/image-hero-whitecup-mobile.jpg')",
