@@ -1,11 +1,11 @@
-import espresso from "../assets/home/desktop/image-gran-espresso.png"
-import planalto from "../assets/home/desktop/image-planalto.png"
-import piccollo from "../assets/home/desktop/image-piccollo.png"
-import danche from "../assets/home/desktop/image-danche.png"
+import espresso from "./images/home/desktop/image-gran-espresso.png"
+import planalto from "./images/home/desktop/image-planalto.png"
+import piccollo from "./images/home/desktop/image-piccollo.png"
+import danche from "./images/home/desktop/image-danche.png"
 
-import bean from "../assets/home/desktop/icon-coffee-bean.svg"
-import gift from "../assets/home/desktop/icon-gift.svg"
-import truck from "../assets/home/desktop/icon-truck.svg"
+import bean from "./images/home/desktop/icon-coffee-bean.svg"
+import gift from "./images/home/desktop/icon-gift.svg"
+import truck from "./images/home/desktop/icon-truck.svg"
 
 import uk from "../assets/about/desktop/illustration-uk.svg"
 import canada from "../assets/about/desktop/illustration-canada.svg"
