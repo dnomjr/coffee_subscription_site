@@ -1,25 +1,21 @@
-import { commitmentMobile } from "../../constants"
-
-
-
 const CommitmentSection = () => {
   return (
     <>
       <div>
         <img
-          src={commitmentMobile}
+          src="./assets/image-commitment-mobile.jpg"
           alt=""
           className="rounded-[.625rem] w-80  mx-auto md:hidden"
         />
 
         <img
-          src="/src/assets/about/image-commitment-tablet.jpg"
+          src="./assets/image-commitment-tablet.jpg"
           alt=""
           className="rounded-[.625rem]  hidden md:block lg:hidden"
         />
 
         <img
-          src="/src/assets/about/image-commitment.jpg"
+          src="./assets/image-commitment.jpg"
           alt=""
           className="rounded-[.625rem] w-96 hidden lg:block"
         />
