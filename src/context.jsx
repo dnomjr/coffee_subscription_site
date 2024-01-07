@@ -8,6 +8,7 @@ export const AppProvider = ({ children }) => {
   const [stepId, setStepId] = useState(null)
   const [questId, setQuestId] = useState(null)
   const [checkedOption, setCheckedOption] = useState([])
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   if (checkedOption) {
     checkedOption.sort((a, b) => a.id - b.id)
@@ -24,6 +25,9 @@ export const AppProvider = ({ children }) => {
         setQuestId,
         checkedOption,
         setCheckedOption,
+        isModalOpen,
+        setIsModalOpen,
+
       }}
     >
       {" "}

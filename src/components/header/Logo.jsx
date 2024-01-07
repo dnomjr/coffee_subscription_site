@@ -8,7 +8,7 @@ const Logo = () => {
         <img
           src={logo}
           alt=""
-          className="w-[203px] sm:w-[236px] dark:brightness-[500%]"
+          className="w-[12.6875rem] sm:w-[14.75rem] dark:brightness-[500%] cursor-default lg:cursor-pointer"
         />
       </Link>
     </>

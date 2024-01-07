@@ -10,8 +10,8 @@ const Summary = () => {
   let delivery = checkedOption.find((a) => a.delivery)
 
   return (
-    <div className="rounded-[10px] bg-darkGreyBlue px-6 py-9">
-      <h3 className="uppercase mb-4 font-barlow leading-[26px] font-normal text-[#fff] opacity-50">
+    <div className="rounded-[.625rem] bg-darkGreyBlue px-6 py-9 mb-20">
+      <h3 className="uppercase mb-4 font-barlow leading-[1.625rem] font-normal text-[#fff] opacity-50">
         order summary
       </h3>
       <p className="text-white font-frauncesBlack font-black leading-10 text-2xl">

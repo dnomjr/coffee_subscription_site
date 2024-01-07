@@ -1,22 +1,12 @@
-import CreatePlan from "../components/CreatePlan"
-import { steps } from "../constants"
+import { steps } from "../../constants"
+import { Link } from "react-router-dom"
 
-const Plans = () => {
-  return (
-    <>
-      <section className="px-6 py-28 text-center rounded-[10px] text-lightCream mb-24 bg-cover bg-mobile-plan-cup md:bg-tablet-plan-cup md:text-start md:px-14 md:py-[118px] lg:bg-desktop-plan-cup lg:px-20 lg:py-[137px] lg:mb-40">
-        <h2 className="mb-6 font-frauncesBlack font-black text-[28px] leading-7 md:text-[32px] md:leading-10 lg:text-[40px] lg:leading-[48px]">
-          Create a plan
+const HowWorkSection = () => {
+  return <><h2 className="text-center text-grey font-frauncesBlack text-2xl leading-8 font-black pb-20 md:pb-0 md:text-start">
+          How it works
         </h2>
-        <p className="font-barlow text-[15px] leading-6 opacity-80 max-w-[300px] mx-auto md:mx-0  md:max-w-[400px] lg:max-w-[445px] lg:text-base lg:leading-[26px]">
-          Build a subscription plan that best fits your needs. We offer an
-          assortment of the best artisan coffees from around the globe delivered
-          fresh to your door.
-        </p>
-      </section>
 
-      <section className="px-6 pt-20 pb-10 mb-28 bg-darkGreyBlue rounded-[10px]  md:px-10 lg:px-14 md:pb-20">
-        <div className="hidden justify-between relative max-w-[466px] pt-10 md:flex xl:pt-20 xl:max-w-[761px]">
+        <div className="hidden justify-between relative max-w-[29.125rem] pt-10 md:flex xl:pt-20 xl:max-w-[47.5625rem]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="31"
@@ -91,34 +81,32 @@ const Plans = () => {
           </svg>
         </div>
 
-        <div className="gap-x-[15px] gap-y-14 xl:gap-x-[80px] flex flex-col md:flex-row  md:pb-11 xl:pb-16">
+        <div className="gap-x-[.9375rem] gap-y-14 xl:gap-x-[5rem] flex flex-col md:flex-row pb-20 md:pb-11 xl:pb-16">
           {steps.map((step) => {
             const { id, number, title, content } = step
             return (
               <div
                 key={id}
-                className="text-center text-lightCream  max-w-[328px] mx-auto md:mx-0 md:text-start md:w-[205px] md:mt-12 xl:w-[285px]"
+                className="text-center max-w-[20.5rem] mx-auto md:mx-0 md:text-start md:w-[12.8125rem] md:mt-12 xl:w-[17.8125rem]"
               >
-                <strong className="text-paleOrange font-frauncesBlack font-black text-7xl leading-[72px]  ">
+                <strong className="text-paleOrange font-frauncesBlack font-black text-7xl leading-[4.5rem]  ">
                   {number}
                 </strong>
-                <h3 className="font-frauncesBlack  font-black text-[28px] py-6 leading-8 md:leading-9 md:text-[32px] md:pb-[38px] xl:pb-[42px] md:pt-[42px] xl:pt-[38px] xl:pr-7">
+                <h3 className="font-frauncesBlack text-darkGreyBlue font-black text-[1.75rem] py-6 leading-8 md:leading-9 md:text-[2rem] md:pb-[2.375rem] xl:pb-[2.625rem] md:pt-[2.625rem] xl:pt-[2.375rem] xl:pr-7 dark:text-lightCream">
                   {title}
                 </h3>
-                <p className=" font-barlow font-normal text-[15px] leading-[25px] xl:text-base xl:leading-[1.625rem] ">
+                <p className="text-darkGreyBlue font-barlow font-normal text-[.9375rem] leading-[1.5625rem] xl:text-base xl:leading-[26px] dark:text-lightCream">
                   {content}
                 </p>
               </div>
             )
           })}
         </div>
-      </section>
 
-      <section className="mb-20 flex flex-row ">
-        <CreatePlan />
-        
-      </section>
-    </>
-  )
+        <Link to="/plans">
+          <button className="font-frauncesBlack text-[1.125rem] font-black px-8 py-4 bg-darkCyan leading-6 rounded-md lg:cursor-pointer hover:bg-[#66D2CF] transition ease-in-out duration-700 text-white max-w-[13.625rem] table mx-auto md:mx-0">
+            <h3>Create your plan</h3>
+          </button>
+        </Link></>
 }
-export default Plans
+export default HowWorkSection

@@ -19,7 +19,6 @@ const AsideSteps = () => {
           <tbody
             key={point.id}
             onClick={() => setStepId(point.id)}
-            className=""
           >
             <tr
               className={`flex justify-start items-center border-b font-frauncesBlack font-black text-2xl last:border-b-0 hover:cursor-pointer hover:text-grey ${

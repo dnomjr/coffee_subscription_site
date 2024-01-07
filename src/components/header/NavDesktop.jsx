@@ -5,7 +5,7 @@ import { navLinks } from "../../constants"
 const NavDesktop = () => {
   return (
     <>
-      <nav className=" gap-8 hidden md:flex text-grey dark:text-lightCream font-barlow font-bold text-xs tracking-[0.923px] ">
+      <nav className=" gap-8 hidden md:flex text-grey dark:text-lightCream font-barlow font-bold text-xs tracking-[.0577rem] ">
         {navLinks.map((link) => {
           const { id, href, label } = link
           return (
@@ -14,7 +14,7 @@ const NavDesktop = () => {
               to={href}
               className={({ isActive }) =>
                 [
-                  "lg:hover:text-darkGreyBlue dark:lg:hover:text-lightCream ",
+                  "lg:hover:text-darkGreyBlue dark:lg:hover:text-lightCream md:cursor-default lg:cursor-pointer",
                   isActive
                     ? "text-darkGreyBlue dark:text-lightCream"
                     : "text-grey ",

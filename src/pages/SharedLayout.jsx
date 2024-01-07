@@ -6,7 +6,7 @@ const SharedLayout = () => {
   return (
     <>
       <Header />
-      <main className="mx-auto min-h-screen max-w-[1280px] px-6 md:px-10 lg:px-12">
+      <main className="mx-auto min-h-screen max-w-[80rem] px-6 md:px-10 lg:px-12">
         <Outlet />
       </main>
       <Footer />

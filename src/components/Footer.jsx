@@ -5,13 +5,13 @@ import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="max-w-[1280px] mx-auto px-6 md:px-12 ">
-      <div className="bg-darkGreyBlue flex flex-col gap-y-12 text-center py-14  mb-16  lg:flex-row lg:justify-between lg:px-20 lg:dark:border-t lg:dark:border-lightCream   ">
+    <footer className="max-w-[80rem] mx-auto px-6 md:px-12 ">
+      <div className="bg-darkGreyBlue dark:bg-[#28313C] flex flex-col gap-y-12 text-center py-14  mb-6  lg:flex-row lg:justify-between lg:px-20 rounded-lg">
         <Link to="/">
           <img
             src={logo}
-            alt=""
-            className="w-[217px] sm:w-[236px]  text-red-500 mx-auto lg:mx-0"
+            alt="Coffeeroasters logo"
+            className="w-[13.5625rem] sm:w-[14.75rem]  text-red-500 mx-auto lg:mx-0"
           />
         </Link>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 to={href}
                 className={({ isActive }) =>
                   [
-                    "font-barlow font-bold leading-4 text-xs tracking-tighter-[0.923px] transition duration-500 lg:hover:text-lightCream",
+                    "font-barlow font-bold leading-4 text-xs tracking-tighter-[.0577rem] transition duration-500 lg:hover:text-lightCream",
                     isActive ? "text-lightCream " : "text-grey",
                   ].join(" ")
                 }

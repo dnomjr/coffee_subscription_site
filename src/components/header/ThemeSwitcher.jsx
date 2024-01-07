@@ -2,12 +2,19 @@ import { IoMdSunny, IoMdMoon } from "react-icons/io"
 /* import { useGlobalContext } from "../../context"
  */ import { useState, useEffect } from "react"
 
+const getInitialDarkMode = () => {
+  const storedDarkMode = localStorage.getItem("darkTheme") === "true"
+
+  return storedDarkMode
+}
 const ThemeSwitcher = () => {
   /*   const { isDarkTheme } = useGlobalContext()
-   */ const [isDarkTheme, setIsDarkTheme] = useState(false)
+   */ const [isDarkTheme, setIsDarkTheme] = useState(getInitialDarkMode())
 
   const handleTheme = () => {
-    setIsDarkTheme(!isDarkTheme)
+    const newDarkTheme = !isDarkTheme
+    setIsDarkTheme(newDarkTheme)
+    localStorage.setItem("darkTheme", newDarkTheme)
   }
 
   useEffect(() => {

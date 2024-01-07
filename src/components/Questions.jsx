@@ -12,7 +12,7 @@ const Questions = ({ id, question, options }) => {
 
   useEffect(() => {
     if (stepId === id) {
-      setIsQuestOpen(!isQuestOpen)
+      setIsQuestOpen(true)
       setStepId(null)
     }
   }, [stepId])
