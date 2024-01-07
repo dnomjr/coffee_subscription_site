@@ -23,9 +23,9 @@ export default {
         "screen/90": "90vw",
       },
       backgroundImage: {
-        "mobile-home": "url('./images/mobile/image-hero-coffeepress.jpg')",
+        "mobile-home": "url('./images/image-hero-coffeepress-mobile.jpg')",
         "desktop-home":
-          "url('./images/desktop/image-hero-coffeepress.jpg')",
+          "url('./images/image-hero-coffeepress.jpg')",
 
         "mobile-about-hero":
           "url('./src/assets/about/mobile/image-hero-whitecup.jpg')",
