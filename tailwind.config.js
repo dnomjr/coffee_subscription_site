@@ -24,29 +24,22 @@ export default {
       },
       backgroundImage: {
         "mobile-home": "url('./images/image-hero-coffeepress-mobile.jpg')",
-        "desktop-home":
-          "url('./images/image-hero-coffeepress.jpg')",
+        "desktop-home": "url('./images/image-hero-coffeepress.jpg')",
 
-        "mobile-about-hero":
-          "url('./src/assets/about/mobile/image-hero-whitecup.jpg')",
-        "desktop-about-hero":
-          "url('./src/assets/about/desktop/image-hero-whitecup.jpg')",
-        "tablet-about-hero":
-          "url('./src/assets/about/tablet/image-hero-whitecup.jpg')",
+        "mobile-about-hero": "url('./images/image-hero-whitecup-mobile.jpg')",
+        "desktop-about-hero": "url('./images/image-hero-whitecup.jpg')",
+        "tablet-about-hero": "url('./images/image-hero-whitecup-tablet.jpg')",
 
-        "mobile-about-man":
-          "url('./src/assets/about/mobile/image-commitment.jpg')",
-        "desktop-about-man":
-          "url('./src/assets/about/desktop/image-commitment.jpg')",
-        "tablet-about-man":
-          "url('./src/assets/about/tablet/image-commitment.jpg')",
+        "mobile-about-man": "url('./images/image-commitment-mobile.jpg')",
+        "desktop-about-man": "url('./images/image-commitment.jpg')",
+        "tablet-about-man": "url('./images/image-commitment-tablet.jpg')",
 
         "mobile-about-cup":
-          "url('./src/assets/about/mobile/image-quality.jpg')",
+          "url('./src/assets/about/mobile/image-quality-mobile.jpg')",
         "desktop-about-cup":
           "url('./src/assets/about/desktop/image-quality.jpg')",
         "tablet-about-cup":
-          "url('./src/assets/about/tablet/image-quality.jpg')",
+          "url('./src/assets/about/tablet/image-quality-tablet.jpg')",
 
         "mobile-plan-cup":
           "url('./src/assets/plan/mobile/image-hero-blackcup.jpg')",
