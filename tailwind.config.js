@@ -24,22 +24,22 @@ export default {
       },
       backgroundImage: {
         "mobile-home":
-          "url('./image-hero-coffeepress-mobile.jpg')",
-        "desktop-home": "url('./image-hero-coffeepress.jpg')",
+          "url('./assets/image-hero-coffeepress-mobile.jpg')",
+        "desktop-home": "url('./assets/image-hero-coffeepress.jpg')",
 
         "mobile-about-hero":
-          "url('./src/assets/about/image-hero-whitecup-mobile.jpg')",
+          "url('./assets/image-hero-whitecup-mobile.jpg')",
         "desktop-about-hero":
-          "url('./src/assets/about/image-hero-whitecup.jpg')",
+          "url('./assets/image-hero-whitecup.jpg')",
         "tablet-about-hero":
-          "url('./src/assets/about/image-hero-whitecup-tablet.jpg')",
+          "url('./assets/image-hero-whitecup-tablet.jpg')",
 
         "mobile-plan-cup":
-          "url('./src/assets/plan/mobile/image-hero-blackcup.jpg')",
+          "url('./assets/image-hero-blackcup-mobile.jpg')",
         "desktop-plan-cup":
-          "url('./src/assets/plan/desktop/image-hero-blackcup.jpg')",
+          "url('./assets/image-hero-blackcup.jpg')",
         "tablet-plan-cup":
-          "url('./src/assets/plan/tablet/image-hero-blackcup.jpg')",
+          "url('./assets/image-hero-blackcup-tablet.jpg')",
       },
     },
   },
